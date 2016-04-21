@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>ase2015</name>
+	<creationDate>7 December 2015</creationDate>
+	<author>Jason Mayhew</author>
+	<authorEmail>jmayhew@mail.utexas.edu</authorEmail>
+	<authorUrl>http://www.ae.utexas.edu</authorUrl>
+	<copyright>Copyright (C) 2015 Department of Aerospace Engineering. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0.0</version>
+	<description>Template for the Department of Aerospace Engineering, Cockrell School of Engineering, The University of Texas at Austin</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>mast</position>
+		<position>header</position>
+		<position>right</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>footer</position>
+	</positions>
+</extension>

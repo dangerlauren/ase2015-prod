@@ -1,0 +1,339 @@
+h1 {
+	font-size: 2em;
+}
+
+table, tr, td {
+	display: block;
+}
+
+table thead {
+	display: none;
+}
+
+table td {
+	border-bottom: none;
+	padding: .5em;
+}
+
+table td p {
+	line-height: 1.125em;
+}
+
+tr {    
+	border-bottom: 1px solid #d1d3d4;
+	padding: 1em 0;
+}
+
+#header .moduletable-utilitynav .nav {
+  min-width: 400px;
+  padding-bottom: .5em;
+}
+
+#header .moduletable-utilitynav .nav li.item-528 {
+    background: url('../images/admissions.svg') no-repeat center top;
+    margin-left: .85em;
+}
+
+.moduletable-flexcontrols {
+	display: block;
+	border-top: none;
+	margin: 1.5em 3% 1em 3%;
+	clear: both;
+	height: auto;
+	overflow: hidden;
+}
+
+.moduletable-flexcontrols h3 {
+	font-size: 1.25em;
+	float: left;
+	width: 40%;
+}
+
+.moduletable-flexcontrols p, .moduletable-homenews .newscontrols, .moduletable-homenews2 .newscontrols {
+	display: block;
+	float: right;
+	font-size: 1.5em;
+	margin-bottom: 0;
+	width: 30%;
+	text-align: right;
+	line-height: 1em;
+}
+
+.moduletable-homenews .newscontrols, .moduletable-homenews2 .newscontrols {
+	margin-top: .5em;
+	margin-right: .5em;
+}
+
+.moduletable-flexcontrols p a {
+	display: inline-block;
+	border: 1px solid #bf5700;
+	background: #bf5700;
+	color: #fff;
+	padding: .15em .25em;
+}
+
+.moduletable-flexcontrols p a:hover, .moduletable-homenews .newscontrols a:hover, .moduletable-homenews2 .newscontrols a:hover {
+	text-decoration: none;
+}
+
+.moduletable-flexcontrols p a.disabled {
+	border: 1px solid #bcbec0;
+	background: #fff;
+	color: #bf5700;
+}
+
+.moduletable-flex {
+	width: auto;
+	float: none;
+	display: none;
+}
+
+.moduletable-flex.one {
+	margin: 0 3%;
+	display: block;
+}
+
+.moduletable-flex.two {
+	margin: 0 3%;
+}
+
+.moduletable-flex.three {
+	margin: 0 3%;
+}
+
+.custom-flex div img {
+	min-width: 100%;
+}
+
+.custom-flex h3 {
+	max-width: 100%;
+}
+
+.custom-flex p {
+	max-width: 100%;
+}
+
+.moduletableseminars {
+	min-height: 100%;
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 1.125em 0 0 0;
+	background-color: #58595b;
+}
+
+.moduletableseminars h3 {
+	margin-left: 0;
+}
+
+.moduletableseminars::before {
+	display: none;
+}
+
+.moduletableseminars table {
+	margin-bottom: 0;
+	display: table;
+	background-color: #323f48;
+}
+
+.moduletableseminars table td {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.moduletableseminars tr {
+	border: none;
+	padding: 1em 0 2em 1.75em;
+}
+
+.moduletable-homenews2 {
+	padding: 0;
+	width: 100%;
+	min-height: 0;
+	background-color: #58595b;
+}
+
+.moduletable-homenews {
+	padding: 0;
+	background: #58595b;
+}
+
+.moduletable-homenews h3, .moduletable-homenews2 h3 {
+	border-top: 0;
+	font-size: 1.25em;
+	font-weight: 700;
+	margin: .25em 3.25%;
+	padding: .5em 0;
+}
+
+.moduletableseminars h3 {
+	border-top: 0;
+	font-size: 1.25em;
+	font-weight: 700;
+	margin: -.5em 3.25% .25em 3.25%;
+	padding: .5em 0;
+}
+
+.moduletableseminars .mod_events_latest_first {
+	font-family: 'Open Sans', arial, helvetica, sans-serif;
+	font-weight: 100;
+	margin-right: 2.5em;
+	line-height: 1.5em;
+	font-size: .95em;
+	padding: 1.5em 0 2em 1.25em;
+	display: table;
+}
+
+.moduletableseminars .mod_events_latest_date, .moduletableseminars .mod_events_latest_content a {
+	font-size: 1em;
+}
+
+.moduletable-homenews .newscontrols a, .moduletable-homenews2 .newscontrols a {
+	display: inline-block;
+	border: 1px solid #fff;
+	background: #fff;
+	color: #000;
+	padding: .15em .25em;
+}
+
+.moduletable-homenews .newscontrols a.disabled, .moduletable-homenews2 .newscontrols a.disabled {
+	border: 1px solid #bcbec0;
+	background: transparent;
+	color: #fff;
+}
+
+.newsflash-homenews, .newsflash-homenews2 {
+	background: #323f48;
+	margin: 0;
+	padding: 1.125em 0;
+}
+
+.newsflash-homenews div, .newsflash-homenews2 div {
+	display: none;
+	width: auto;
+	float: none;
+	margin: 0 5%;
+}
+
+.newsflash-homenews div.newsone, .newsflash-homenews2 div.newsone {
+	display: block;
+}
+
+.newsflash-homenews div .attachmentsContainer, .newsflash-homenews2 div .attachmentsContainer {
+	display: none;
+}
+
+.custom-video h3 {
+	clear: both;
+}
+
+.moduletable-rankings {
+	padding-left: 0;
+}
+
+.custom-rankings {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.custom-rankings div:nth-last-of-type(n+2), .custom-rankings div:nth-last-of-type(n+2) ~ div {
+	width: 40%;
+	float: left;
+} 
+
+#header .search {
+	display: none;
+}
+
+.moduletable-homelinks {
+	width: auto;
+	float: none;
+}
+
+.custom-homelinks ul {
+	padding-right: 3.25%;
+}
+
+#research-table .col {
+    width: auto;
+    float: none;
+}
+
+.item-pagealumprofiles .profiles p, .blog .items-leading .leading-0 .print p {
+    width: auto;
+    float: none;
+}
+
+.blog .items-leading .leading-1 .enews, .blog .items-leading .leading-1 .page-header  {
+	display: inline-block;
+}
+
+.item-pagealumprofiles .profiles p img, .blog .items-leading .leading-0 .print p img {
+	float: none;
+}
+
+.item-pagealumprofiles .customfeaturedalum h3 {
+	clear: left;
+	padding-top: .5em;
+	font-size: 1.25em;
+}
+
+.item-pagealumprofiles .customfeaturedalum .learnmore {
+	margin-bottom: 0;
+}
+
+.advisors p.float-left {
+	margin-bottom: .5em;
+	float: none;
+}
+
+/* CALENDAR */
+
+#jevents #jevents_body .ev_table .ev_td_left {
+	padding: 1.5em 1.5em;
+}
+
+.ev_td_right .ev_td_li {
+  margin-left: 0px;
+}
+
+#jevents #jevents_body .ev_table .ev_td_right {
+	clear: left;
+	margin-bottom: 2em;
+}
+
+#footer {
+	border-top: none;
+	margin-top: 2em;
+}
+
+#footer h3 {
+	font-size: 1em;
+}
+
+.moduletable-connect {
+	display: block;
+	width: auto;
+	border-right: none;
+	padding: 0;
+	margin: 0 15% 2em 5%;
+}
+
+.moduletable-resources {
+	width: 25%;
+	padding-right: 2.5em;
+}
+
+.moduletable-resources ul li, .moduletable-helpfullinks ul li {
+	font-size: .85em;
+	line-height: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+.moduletable-connect #idinfo, .moduletable-connect #address {
+	display: none;
+}
+
+.custom-copyright {
+	margin: 2em 0 0 0;
+}

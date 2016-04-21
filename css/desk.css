@@ -1,0 +1,533 @@
+/** Header **/
+
+.custom-cselogo {
+	display: block;
+	float: left;
+	margin: 0 0 0 3.25%;	
+	background: url('../images/cselogo.svg') no-repeat center center;
+	background-size: 100%;
+	width: 234px;
+	height: 17px;
+	cursor: pointer;
+}	
+
+.custom-utlogo {
+	float: right;
+	margin: 0 3.25% 0 0;
+}	
+
+/** Nav **/
+
+#header .moduletable-mainnav {
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-top: 1px solid #808285;
+	border-bottom: 1px solid #808285;
+	clear: both;
+	float: none;
+}
+
+#header .moduletable-mainnav .nav {
+	width: 100%;
+	min-width: 1188px;
+	padding: 1em 0;
+	margin: 0;
+}
+
+#header .moduletable-mainnav .nav .item-11 .nav-child .item-86, #header .moduletable-mainnav .nav .item-7 .nav-child .item-27, #header .moduletable-mainnav .nav .item-7 .nav-child .item-28, #header .moduletable-mainnav .nav .item-7 .nav-child .item-503, #header .moduletable-mainnav .nav .item-7 .nav-child .item-30, #header .moduletable-mainnav .nav .item-7 .nav-child .item-647, #header .moduletable-mainnav .nav .item-657 {
+	display: none;
+}
+
+#header .moduletable-mainnav .nav li {
+	position:relative;
+	display: inline-block;
+	font-size: .8em;
+	letter-spacing: .1em;
+	margin: 0 2em;
+	text-transform: uppercase;
+}
+
+#header .moduletable-mainnav .nav li a {
+	color: #6e6f72;
+	font-weight: 600;
+	padding: 1.5em .75em;
+}
+
+#header .moduletable-mainnav .nav li a:hover {
+	color:  #005e83;
+	text-decoration: none;
+}
+
+#header .moduletable-mainnav .nav li .nav-child {
+	display: none;
+}
+
+#header .moduletable-mainnav .nav li.showme .nav-child {
+	display: block;
+	position: absolute;
+	z-index: 200;
+	background: #e0e0e0;
+	text-align: left;
+	margin: 1em 0 0 0;
+	padding: 1em;
+}
+
+#header .moduletable-mainnav .nav li.showme .nav-child li {
+	display: list-item;
+	border-top: 1px solid #fff;
+	font-size: 1em;
+	min-width: 220px;
+	margin: 0;
+	padding: 1em;
+}
+
+#header .moduletable-mainnav .nav li.showme .nav-child li a {
+	padding: 0;
+	text-transform: none;
+	font-size: 1.1em;
+	display: block;
+	height: 100%;
+	width: 100%;
+	letter-spacing: .05em;
+}
+
+#header .moduletable-mainnav .nav li.showme .nav-child li a:hover {
+	text-decoration: underline;
+}
+
+#header .moduletable-mainnav .nav li.showme .nav-child li:first-of-type, #header .moduletable-mainnav .nav .item-11 .nav-child .item-619 {
+	border-top: none;
+}
+
+.moduletable-mobilenav {
+	display: none;
+}
+
+#header .moduletable-utilitynav .nav li {
+	margin: 0em 4em -1.5em 4em;	
+}
+
+#right {
+  width: 20%;
+  float: right;
+  margin: 1em 5% 2.25em 3.25%;
+}
+
+.menuhead {
+  cursor: pointer;
+  border: none;
+  border-top: 4px solid #bf5700;
+  margin: 4.5em 0 1.5em 0;
+}
+
+.menuhead h3 {
+  color: #bf5700;
+  font-size: 1.3em;
+  padding: .5em;
+}
+
+.menuhead h3 span {
+  display: none;
+}
+
+.menu-subnav {
+  display: block;
+  border-left: none;
+  border-right: none;
+  margin: 0;
+}
+
+.menu-subnav li {
+  font-size: .95em;
+  font-weight: 600;
+  background: #eaeaea;
+  padding: 1em;
+  border-bottom: none;
+  margin-bottom: 1em;
+}
+
+/** Body **/
+.item-page, .blog, .blog-undergrad, .blog-news, .item-pagealumprofiles, .item-page-undergrad, .item-page-news, .undergradprograms .undergradprograms, .search {
+	width: 65%;
+}
+
+.blog {
+	width: 96.25%;
+}
+
+.moduletable-homenews2, .moduletableseminars {	
+	min-height: 390px;				
+}
+
+.moduletableseminars::before {
+	height: 19em;
+}
+
+.moduletable-video {
+	width: 60%;
+	float: right;
+	clear: right;
+}
+
+#modulepositions .custom .arrowbullet li a {
+	width: 40%;
+}
+
+#modulepositions .custom .arrowbullet li:nth-last-child(n+4), #modulepositions .custom .arrowbullet li:nth-last-child(n+4) ~ li {
+	float: left;
+	width: 40%;
+}
+
+.item-pagealumprofiles .profiles p a, .item-pagealumprofiles .profiles p em {
+	width: 78%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+
+.item-pagealumprofiles .profiles p:nth-child(3n+1), .item-pagealumprofiles .profiles p:nth-child(3n+1) ~ p {
+	float: left;
+	width: 28%;
+	height: 250px;
+	padding-bottom: 6em;
+	padding-right: 1em;
+}
+
+.item-pagealumprofiles .profiles p:last-of-type {
+	margin-bottom: 0;
+}
+
+.item-pagealumprofiles .profilescontact {
+	float: none;
+	clear: both;
+	overflow: hidden;
+	height: auto;
+}
+
+.item-pagealumprofiles .profilescontact p {
+	margin-bottom: 0;
+}
+
+.item-pagealumprofiles .customfeaturedalum {
+	margin-bottom: 1.4em;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 1.4em 0;
+}
+
+.item-pagealumprofiles .customfeaturedalum .featuredalumcontent {
+	float: left;
+	padding-right: 1em;
+}
+
+.blog .items-leading .leading-0 .print p a {
+	width: 78%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+
+.blog .items-leading .leading-0 .print p img {
+	max-width: 180px;
+	float: left;
+	margin-right: 2em;
+}
+
+.blog .items-leading .leading-0 .print p:nth-child(3n+1), .blog .items-leading .leading-0 p:nth-child(3n+1) ~ p{
+	float: left;
+	width: 20%;
+	height: 180px;
+	padding-bottom: 6em;
+	padding-right: 1em;
+}
+
+.blog .items-leading .leading-1 .enews, .blog .items-leading .leading-1 .page-header {
+	float: none;
+	clear: both;
+	overflow: hidden;
+	height: auto;
+}
+
+.moduletable-homelinks {
+	width: 30%;
+	float: none;
+	margin: 0 5%;
+	/*padding: 0 3.25%;*/
+}
+
+.moduletable-homelinks h3 {
+	margin-bottom: 1em;
+	
+}
+
+.undergradprograms .companies-students {
+	margin-left: 0;
+	-moz-column-count: 2;
+	-moz-column-gap: 3em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 3em;
+	column-count: 2;
+	column-gap: 3em;
+	list-style: none;
+}
+
+/** Research **/
+
+#research-table {
+	clear: both;
+	float: none;
+	height: auto;
+	overflow: hidden;
+	margin: 1em 0 0 0;
+	display: inline;
+}
+
+#research-table p {
+	background-color: #005E83;
+	padding: .5em 0 .5em .75em;
+	max-width: 1500px;
+}
+
+#research-table a {
+	color: #fff;
+}
+
+#research-table img {
+	width: 100%;
+}
+
+#research-table .col {
+    width: 45%;
+    float: left;
+}
+
+#research-table .col.one, .col.three, .col.five {
+    margin: 0 1% 3em 0;
+}
+
+#research-table .col.two, .col.four, .col.six {
+    margin: 0 0 3em 2.25%;
+}
+
+#research-table .col.one, .col.three, .col.five, .custom {
+    padding: 0;
+}
+
+#research-table .custom.six p a {
+	color: #005E83;
+}
+
+.blog-researchareas .items-leading, .blog-researchareas .items-row {
+	width: 73%;
+}
+
+.blog .category-desc {
+	width: 68%;
+}
+
+@media (max-width: 910px) {
+	#research-table .custom.one p {
+		font-size: .95em;
+	}
+}
+
+/** Faculty Directory **/
+
+#faccontent, .item-page {
+	width: 65%;
+}
+
+.facentry {
+	height: auto;
+	overflow: hidden;
+	clear: both;
+	float: none;
+}
+
+#faccontent .facentry .facphoto {
+	width: 10%;
+	float: left;
+}
+
+#faccontent .facentry .facinfo {
+	width: 80%;
+	float: left;
+}
+
+#faccontent .facdetail .depttitle {
+	font-size: 1.5em;
+}
+
+#faccontent .facdetail .facinfo {
+	float: left;
+	width: 25%;
+}
+
+#faccontent .facdetail .facart {
+	float: right;
+	width: 70%;
+}
+
+#faccontent .facdetail .facphoto img {
+	width: 100%;
+	height: auto;
+}
+
+/** Footer **/
+#footer {
+	display: table;
+    border-collapse: separate;
+    border-spacing: 0 2.5em;
+	margin-bottom: 2.5em;
+	width: 100%;
+}
+
+.moduletable-connect {
+	display: table-cell;
+	padding: 2.25em 3.25% 1.5em 3.25%;
+	border-right: 1px solid #808285;
+	width: 30%;	
+}
+
+.moduletable-resources {
+	display: table-cell;
+	padding-left: 3.25%;
+	float: none;
+	width: 20%;	
+}
+
+.moduletable-helpfullinks {
+	display: table-cell;
+	float: none;
+	width: 20%;	
+}
+
+.custom-copyright {
+	display: table-cell;
+	text-align: left;
+	border-top: none;
+	width: 20%;	
+	padding-right: 3.25%;
+}
+
+/*KEEP SIDENAV VIEWABLE AFTER SCREEN RESIZE*/
+@media (min-width: 999px) {
+	.menu-subnav {
+		display: block !important;
+	}
+}
+
+
+
+@media (max-width: 1280px) {
+	/*FLIP ALUMNI MENU TO RIGHT JUSTIFY*/
+	#header .moduletable-mainnav .nav .item-14 ul {
+		position: absolute;
+		right: 0;
+	}
+
+	/*ADD SPACE TO FACULTY PHOTOS*/
+	#faccontent .facentry .facphoto {
+		margin-right: 1em;
+	}
+
+	/*CONDENSE PAGINATION ON NEWS*/
+	.blog-news .pagination ul li {
+		display: inline-block;
+		padding: 0 1em;
+	}
+}
+
+@media (max-width: 1188px) {
+	/*CONDENSE VIDEO SPACE ON HOME PAGE*/
+	.custom-video .video-container {
+		height: 400px; 
+		width: 600px; 
+		background-color: #cccccc;
+		margin: 20px 0 2em 0;
+	}
+
+	.custom-video p {
+		max-width: 600px;
+	}
+
+	/*ADD HAMBURGER MENU*/
+	.custom-utlogo {
+		display: none;
+	}
+
+	#header .moduletable-mainnav {
+		display: none;
+	}
+
+	.moduletable-mobilenav {
+		display: inline;
+		float: right;
+		text-align: right;
+		margin: 0 3.25% 0 0;
+	}
+
+	.moduletable-mobilenav .nav {
+	  z-index: 999;
+	}
+
+	.moduletable-mobilenav h3 {
+		cursor: pointer;
+		font-weight: normal;
+		font-size: 1em;
+		text-transform: uppercase;
+		color: #fff;
+	}
+
+	.menu-mobile {
+		background: #fff;
+		display: none;
+		position: absolute;
+		right: 0;
+		text-align: left;
+		width: 100%;
+		margin: .5em 0 0 0;
+		border-bottom: 1px solid #a7a9ac;
+	}
+
+	.menu-mobile li {
+		border-top: 1px solid #a7a9ac;
+		text-transform: uppercase;
+		padding: 1em 0;
+		margin: 0;
+	}
+
+	.menu-mobile .nav-child {
+		background: #f1f2f2;
+		margin: .75em 0 0 0;
+	}
+
+	.menu-mobile .nav-child li {
+		margin: 0;
+		text-transform: none;
+	}
+
+	.menu-mobile li a {
+		color: #6e6f72;
+		padding: 0 1em;
+	}	
+}
+
+@media (max-width: 1135px) {
+	.item-page .meetstudents div a {
+		width: 45%;
+		height: 150px;
+	}
+
+	.item-page .meetstudents div:nth-child(odd), .item-page .meetstudents div:nth-child(odd) ~ div {
+		float: left;
+		width: 47%;
+		height: 150px;
+		padding-bottom: 7em;
+	}
+
+	.item-page .meetstudents div:nth-child(even) {
+		width: 47%;
+	}	
+}

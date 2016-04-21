@@ -1,0 +1,290 @@
+ /*----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+
+h1 {
+  font-size: 2.5em;
+}
+
+/*-----HOME-----*/
+
+.custom-aselogo {
+  width: 300px;
+  margin: 0.3em 1.3em;
+}
+
+.custom-homehero {
+  height: 350px;
+}
+
+.custom-homehero .herotext h1 {
+  font-size: 26px;
+}
+
+.custom-flex {
+  padding: 0;
+}
+
+.custom-flex.one {
+  padding: 0;
+}
+
+.custom-flex.three {
+  padding: 0;
+}
+
+.custom-flex.two  {
+  padding: 0;
+}
+
+#header .moduletable-utilitynav .nav {
+  min-width: 745px;
+  padding-bottom: .5em;
+}
+
+#header .moduletable-utilitynav .nav li {
+  display: inline-block;
+  font-size: .8em;
+  margin: 0 2em;
+ }
+
+ .home #modulepositions {
+  padding-top: -1em; 
+}
+
+.moduletable-video {
+  float: none;
+  /*margin: 0 15% 0 5%;
+  width: 100%;*/
+}
+
+.custom-video {
+  margin: 0 10% 0 0;
+  width: 100%;
+}
+
+.custom-video .video-container {
+  height: 400px; 
+  width: 600px; 
+  background-color: #cccccc;
+  margin: 20px 0 2em 0;
+}
+
+.custom-video p {
+  margin-bottom: 0;
+}
+
+.moduletable-homelinks {
+  width: 45.5%;
+  float: left;
+  margin: 0 0 0 3.25%;
+}
+
+.moduletable-homelinks h3 {
+  font-size: 1.25em;
+}
+
+ .moduletable-rankings {
+  padding-left: 1em;
+}
+
+.custom-rankings div {
+  margin: 0 4.95% 0 0;
+}
+
+.custom-rankings div p span {
+  font-size: 2em;
+} 
+
+.moduletable-homelinks .custom-homelinks li {
+  font-size: .75em;
+  
+}
+
+.moduletable-homenews {
+  margin-bottom: 2em;
+}
+
+.menu-subnav li {
+  font-size: .95em;
+  font-weight: 600;
+  background: #eaeaea;
+  margin-bottom: 0;
+}
+
+#modulepositions .moduletable .custom a img {
+  margin-bottom: 0;
+}
+
+#modulepositions .moduletable .custom h3, #modulepositions .moduletable .custom h3 a:link, #modulepositions .moduletable .custom h3 a:visited {
+  /*clear: left;*/
+}
+
+#modulepositions .moduletable .custom p {
+  /*float: left;*/
+}
+
+#header .search {
+	display: none;
+}
+
+/*-----UNDERGRAD-----*/
+
+.custom-banner {
+  min-height: 250px;
+  background-size: cover;
+}
+
+.blog-undergrad .page-header {
+  margin: 1.5em 0;
+}
+
+.blog-undergrad .page-header h1 {
+  font-size: 2.2em;
+  margin-bottom: .75em
+}
+
+.blog-undergrad .items-leading .leading-0 .page-header h2 a{
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-undergrad .items-leading .leading-0 h2 span{
+  font-size: .5em;
+}
+
+ .span12 .column-1 p {
+  margin-bottom: 1.25em
+}
+
+.-undergrad #modulepositions {
+    width: 100%;
+}
+
+.undergradprograms .companies-students {
+  margin-left: 0;
+  -moz-column-count: 2;
+  -moz-column-gap: 3em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 3em;
+  column-count: 2;
+  column-gap: 3em;
+  list-style: none;
+}
+
+/*-----GRAD-----*/
+
+.graduateprograms .page-header h1 {
+  font-size: 2.2em;
+}
+
+.graduateprograms .wrapper .graduateprograms .articleBody p {
+  font-size: 1.25em;
+  margin-bottom: 1.35em;
+}
+
+.graduateprograms h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.graduateprograms h2 a {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.graduateprograms .borderbottom h3 {
+  font-size: 1.25em;
+}
+
+.graduateprograms .borderbottom .borderbottom p {
+  font-size: .9em;
+}
+
+/*-----RESEARCH-----*/
+
+#research-table .col {
+    width: 45%;
+    float: left;
+}
+
+#research-table .col.one, .col.three, .col.five {
+    margin: 0 1% 3em 0;
+}
+
+#research-table .col.two, .col.four, .col.six {
+    margin: 0 0 3em 2.25%;
+}
+
+#research-table .col.one, .col.three, .col.five, .custom {
+    padding: 0;
+}
+
+#research-table .custom.one p {
+	font-size: .95em;
+}
+
+#research-table a {
+  font-size: .85em;
+}
+
+/*-----NEWS-----*/
+
+.blog-news .page-header h1 {
+  font-size: 2.2em;
+}
+
+.blog-news .pagination ul li {
+  display: inline-block;
+  padding: 0 0.75em;
+}
+
+/*CALENDAR*/
+
+#jevents #jevents_body .ev_table .ev_td_left {
+  padding: 1.5em 3em;
+}
+
+.ev_td_right .ev_td_li {
+  margin-left: 50px;
+}
+
+
+@media (max-width: 600px) {
+  #modulepositions .moduletable .custom h3, #modulepositions .moduletable .custom h3 a:link, #modulepositions .moduletable .custom h3 a:visited {
+    clear: left;
+  }
+
+#modulepositions .moduletable .custom p {
+    float: left;
+  }
+}
+/*@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .moduletable-mobilenav h3 
+      {cursor: pointer;}
+      {font-weight: normal;}
+      {font-size: 1em;}
+      {text-transform: uppercase;}
+      {color: #ff0000;}
+
+}
+
+/* Portrait */
+/*@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}*/
+
+/* Landscape */
+/*@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
