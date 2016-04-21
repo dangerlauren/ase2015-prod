@@ -798,6 +798,10 @@ table td p {
 	font-size: .95em;
 }
 
+.moduletableseminars span.presenter {
+	line-height: 4em;
+}
+
 .moduletableseminars .mod_events_latest_date:first-of-type {
 	font-style: italic;
 	font-family: "Georgia", serif;
