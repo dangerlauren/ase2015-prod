@@ -1134,6 +1134,7 @@ table col.name, table col.title {
 	height: auto;
 	overflow: hidden;
 	margin: 0;
+	display: inline-block;
 }
 
 #research-table p {
@@ -1713,6 +1714,12 @@ display: none;
 #footer .moduletable-connect .moduletable-resources .moduletable-helpfullinks{
   display: table;
   width: 100%;
+}
+
+@media (max-width: 843px) {
+	#research-table .custom div p {
+		font-size: .8em;
+	}
 }
 
 @media (max-width: 725px) {

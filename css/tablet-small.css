@@ -259,6 +259,10 @@ tr {
     float: none;
 }
 
+#research-table .custom div p {
+  font-size: 1em;
+}
+
 .item-pagealumprofiles .profiles p, .blog .items-leading .leading-0 .print p {
     width: auto;
     float: none;
