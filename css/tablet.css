@@ -203,7 +203,7 @@ h1 {
 /*-----RESEARCH-----*/
 
 #research-table .col {
-    width: 45%;
+    width: 48%;
     float: left;
 }
 
@@ -219,9 +219,9 @@ h1 {
     padding: 0;
 }
 
-#research-table .custom.one p {
+/*#research-table .custom.one p {
 	font-size: .95em;
-}
+}*/
 
 #research-table a {
   font-size: .85em;
