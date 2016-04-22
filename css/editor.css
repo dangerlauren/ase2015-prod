@@ -31,6 +31,12 @@
 	padding-left: 3em;
 }
 
+/*IMAGE SCALING*/
+.news-image-scale {
+	min-width: 100%;
+	display: block;
+}
+
 /*BUTTON STYLES*/
 .button-sm-orange  {
 	color: #fff;
