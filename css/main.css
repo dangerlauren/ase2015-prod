@@ -1294,7 +1294,11 @@ table col.name, table col.title {
 }
 
 #jevents #jevents_header h2.contentheading {
-display: none;
+	display: none;
+}
+
+#jevents #jevents_body {
+	margin-top: -1.5em;
 }
 
 #jevents .contentheading {
@@ -1302,7 +1306,7 @@ display: none;
 	letter-spacing: .01em;
 	color: #3a3a3a;
 	padding: .5em 0;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 #jevents .presenter {
