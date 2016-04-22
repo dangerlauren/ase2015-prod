@@ -1576,9 +1576,9 @@ table col.name, table col.title {
 	margin: 0 0 1em 1em;
 }
 
-.item-page-news p:first-of-type {
+/*.item-page-news p:first-of-type {
 	margin: 1em 0;
-}
+}*/
 
 .item-page-news dl .createdby, .item-page dl .createdby {
 	margin-bottom: 2em;
