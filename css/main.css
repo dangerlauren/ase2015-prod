@@ -1032,6 +1032,26 @@ figcaption {
 	padding: 0 1.5em;
 }
 
+.news-image-scale {
+	min-width: 100%;
+	display: block;
+}
+
+figure.news-image-scale, p.news-image-scale {
+	max-width: 1000px;
+	display: block;
+}
+
+figure.news-image-scale img, p.news-image-scale img {
+	min-width: 100%;
+	display: block;
+}
+
+figure.news-image-scale figcaption {
+	display: inline-block;
+	max-width: 1000px;
+}
+
 #modulepositions .moduletable {
 	border-top: 1px solid #e0e0e0;
 }
@@ -1576,9 +1596,9 @@ table col.name, table col.title {
 	margin: 0 0 1em 1em;
 }
 
-/*.item-page-news p:first-of-type {
-	margin: 1em 0;
-}*/
+.item-page-news, .item-page {
+	max-width: 1000px;
+}
 
 .item-page-news dl .createdby, .item-page dl .createdby {
 	margin-bottom: 2em;
