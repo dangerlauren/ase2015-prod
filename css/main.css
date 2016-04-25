@@ -1317,7 +1317,7 @@ table col.name, table col.title {
 	display: none;
 }
 
-#jevents #jevents_body {
+#jevents #jevents_body .contentpaneopen {
 	margin-top: -1.5em;
 }
 
