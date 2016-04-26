@@ -1033,6 +1033,10 @@ figcaption {
 	display: block;
 }
 
+span.blockquote {
+	line-height: 1.45em;
+}
+
 .news-image-scale {
 	min-width: 100%;
 	display: block;
