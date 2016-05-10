@@ -115,7 +115,21 @@
 		  $(this).removeClass("showme");
 		});
 	});
+	
+	$(function() {
 
+		$(".switch a").click(function(e) { 
+
+			var link = $(this).attr("href");
+			
+			$(link).slideToggle();
+			$(this).toggleClass('active');
+			
+			e.preventDefault(); 
+
+		});
+	});
+	
 	$(function() {
 		// Find all videos
 		var $allVideos = $("iframe"),
