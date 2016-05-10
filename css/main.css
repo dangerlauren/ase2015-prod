@@ -1674,6 +1674,19 @@ table col.name, table col.title {
 	font-size: 0;
 }
 
+/** Expand/Collapse generic styles **/
+.expand {
+	display: none;
+}
+
+.switch a:after {
+	content: ' >';
+}
+
+.switch a.active:after {
+	content: ' \2228';
+}
+
 /** Footer **/
 #footer {
 	border-top: 1px solid #808285;
