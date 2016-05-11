@@ -148,7 +148,7 @@
 }
 
 /** Body **/
-.item-page, .blog, .blog-undergrad, .blog-news, .item-pagealumprofiles, .item-page-undergrad, .item-page-news, .undergradprograms .undergradprograms, .search {
+.item-page, .blog, .blog-undergrad, .blog-news, .item-pagealumprofiles, .item-page-undergrad, .item-page-news, .undergradprograms .undergradprograms, .search, .weblink-category, .tag-category {
 	width: 65%;
 }
 

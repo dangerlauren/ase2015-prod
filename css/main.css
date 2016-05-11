@@ -947,7 +947,12 @@ table td p {
 }	
 
 /** Body **/
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category {
+
+.weblink-category h1 {
+	margin-bottom: .5em;
+}
+
+.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -1672,6 +1677,73 @@ table col.name, table col.title {
 .tooltip {
 	display: none;
 	font-size: 0;
+}
+
+.weblink-category .category {
+	margin: 1.25em 0 2em 0;
+	list-style-type: none;
+}
+
+.weblink-category .category .list-title {
+	font-size: 1.125em;
+	margin-bottom: .75em;
+}
+
+.weblink-category .category .list-title img {
+	display: none;
+}
+
+.weblink-category .category li {
+	padding: 1em 0;
+	border-top: 1px solid #d1d3d4;
+}
+
+.weblink-category .category li:first-of-type {
+	border-top: none;
+}
+
+.weblink-category .category li p {
+	margin-bottom: 0;
+	clear: left;
+}
+
+.weblink-category .category li ul.tags {
+	margin: .5em 0 1em 0;
+}
+
+.weblink-category .category li ul.tags li {
+	list-style: none;
+	border: none;
+	padding: 0 .5em 0 0;
+	float: left;
+}
+
+.weblink-category .category li ul.tags li a {
+	background-color: #eaeaea;
+	padding: .25em;
+	color: #3a3a3a;
+	border:	1px solid;
+	font-size: .7em;
+}
+
+.weblink-category .category li ul.tags li a:hover {
+	text-decoration: none;
+	background-color: #005E83;
+	color: #fff;
+}
+
+.tag-category form ul.category {
+	list-style: none;
+	margin: 0;
+}
+
+.tag-category form ul.category li:first-of-type {
+	border-top: none;
+}
+
+.tag-category form ul.category li {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 1em;
 }
 
 /** Expand/Collapse generic styles **/
