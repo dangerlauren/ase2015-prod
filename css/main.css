@@ -1001,7 +1001,19 @@ figcaption {
 
 .float-left {
 	float: left;
+	padding: 1.5em 1.5em 0 0;
+}
+
+.float-left + p {
+	padding-top: 1.1em;
+}
+
+.about .float-left, .alumprofiles .float-left {
 	padding: .35em 1.5em 0 0;
+}
+
+.about .float-left + p {
+	padding-top: 0;
 }
 
 .float-right {
