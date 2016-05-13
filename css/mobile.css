@@ -310,9 +310,13 @@ tr {
 	margin-bottom: 2em;
 }
 
-#footer {
+/*#footer {
 	border-top: none;
 	margin-top: 2em;
+}*/
+
+#modulepositions .commencement {
+	margin-bottom: -5%;
 }
 
 #footer h3 {
@@ -323,8 +327,8 @@ tr {
 	display: block;
 	width: auto;
 	border-right: none;
-	padding: 0;
-	margin: 0 15% 2em 5%;
+	padding-top: 1.5em;
+	/*margin: 0 15% 2em 5%;*/
 }
 
 .moduletable-resources {

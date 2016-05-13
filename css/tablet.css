@@ -238,6 +238,10 @@ h1 {
   padding: 0 0.75em;
 }
 
+#modulepositions .commencement {
+  margin-bottom: -5%;
+}
+
 /*CALENDAR*/
 
 #jevents #jevents_body .ev_table .ev_td_left {
