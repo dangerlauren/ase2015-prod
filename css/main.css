@@ -298,7 +298,7 @@ table td p {
   z-index: 999;
 }
 
-.-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-27, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-28, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-503, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-30 {
+.-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-27, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-28, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-503, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-30,  {
 	display: none;
 }
 
@@ -383,6 +383,10 @@ table td p {
 
 .menu-subnav .active.parent .nav-child, .menu-subnav .alias-parent-active .nav-child {
 	display: block;
+}
+
+.menu-subnav .active.parent.item-28 .nav-child {
+	display: none;
 }
 
 .menu-subnav .parent.active .nav-child:first-of-type, .menu-subnav .alias-parent-active .nav-child:first-of-type {
