@@ -1005,12 +1005,12 @@ figcaption {
 
 .float-left {
 	float: left;
-	padding: 1.5em 1.5em 0 0;
+	padding: .3em 1.5em 0 0;
 }
 
-.float-left + p {
+/*.float-left + p {
 	padding-top: 1.1em;
-}
+}*/
 
 .about .float-left, .alumprofiles .float-left {
 	padding: .35em 1.5em 0 0;
@@ -1636,6 +1636,10 @@ table col.name, table col.title {
 
 .item-page-news .published {
 	margin-bottom: 1em;
+}
+
+.item-page dl.article-info dd.published {
+	padding-bottom: 1.8em;
 }
 
 .item-page p img, .item-page-news p img {
