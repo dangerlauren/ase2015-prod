@@ -334,7 +334,7 @@
 
 /** Faculty Directory **/
 
-#faccontent, .item-page {
+#faccontent, .item-page, .fac-memorials .category-list {
 	width: 65%;
 }
 

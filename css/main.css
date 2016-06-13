@@ -956,7 +956,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -1328,6 +1328,48 @@ table col.name, table col.title {
 	display: none;
 }
 
+.blog.eac {
+	margin-bottom: 3em;
+}
+
+.blog.eac .span12:last-of-type {
+	border: none;
+}
+
+.blog.eac .span12:first-of-type {
+	border-top: 1px solid #e0e0e0;
+}
+
+.blog.eac .span12 {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.blog.eac .item .page-header {
+	margin-bottom: 0;
+}
+
+.blog.eac .category-desc h2 {
+  margin-bottom: 1em; 
+}
+
+.blog.eac .item h2 {
+	font-size: 1.05em;
+	margin-bottom: .5em;
+}
+
+.blog.eac .item h2 a:link {
+	font-weight: 600;
+}
+
+.blog.eac .item p:first-of-type {
+	margin-top: 0;
+}
+
+.blog.eac .span12 {
+	max-width: 1000px;
+	margin-right: 5%;
+}
+
 /** Calendar **/
 
 #jevents {
@@ -1587,6 +1629,21 @@ table col.name, table col.title {
 .set-table-width, .item-pagealumprofiles {
 	max-width: 1000px;
 	border-top: none;
+}
+
+.fac-memorials .fac-memorials ul {
+	margin: 2em 0;
+	list-style-type: none;
+}
+
+.fac-memorials .fac-memorials ul li {
+	margin-bottom: 1.5em;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 0 2em 1.5em 0;
+}
+
+.fac-memorials .fac-memorials ul li:last-of-type {
+	border-bottom: none;
 }
 
 /** Research **/

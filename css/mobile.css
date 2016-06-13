@@ -349,3 +349,9 @@ tr {
 .custom-copyright {
 	margin: 2em 0 0 0;
 }
+
+/*-----EAC-----*/
+
+.blog.eac .category-desc h2 {
+  font-size: 1.2em; 
+}

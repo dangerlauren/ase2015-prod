@@ -242,6 +242,12 @@ h1 {
   margin-bottom: -5%;
 }
 
+/*-----EAC-----*/
+
+.blog.eac .category-desc h2 {
+  font-size: 1.8em; 
+}
+
 /*CALENDAR*/
 
 #jevents #jevents_body .ev_table .ev_td_left {
