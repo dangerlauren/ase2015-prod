@@ -26,9 +26,17 @@ $xref = $metabundle->{'xreference'};
 						<a href="<?php echo $xref; ?>" itemprop="url">
 							<?php echo $this->escape($displayData->title); ?></a>
 				<?php else : ?>
-					<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
+					<?php if ($params->get('link_titles') && $params->get('access-view')) : 
+						if ($displayData->catid == "151"):
+							$cralias = explode(",",$displayData->title);
+							$genalias = strtolower(trim($cralias[0]));
+					?>
+						<a href="faculty/faculty-directory/<?php echo $genalias;?>" itemprop="url">
+					<?php else : ?>
 						<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($displayData->slug, $displayData->catid, $displayData->language)); ?>" itemprop="url">
-						<?php echo $this->escape($displayData->title); ?></a>
+						<?php 
+						endif;
+						echo $this->escape($displayData->title); ?></a>
 					<?php else : ?>
 						<?php echo $this->escape($displayData->title); ?>
 					<?php endif; ?>
