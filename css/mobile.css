@@ -159,7 +159,7 @@ tr {
 
 .moduletable-flex.one {
 	margin: 0 1%;
-	display: block;
+	/*display: block;*/
 }
 
 .moduletable-flex.two {
@@ -204,14 +204,14 @@ tr {
 }
 
 .newsflash-homenews div, .newsflash-homenews2 div {
-	display: none;
+	/*display: none;*/
 	width: auto;
 	float: none;
 	margin: 0 5%;
 }
 
 .newsflash-homenews div.newsone, .newsflash-homenews2 div.newsone {
-	display: block;
+	/*display: block;*/
 }
 
 .newsflash-homenews div .attachmentsContainer, .newsflash-homenews2 div .attachmentsContainer {
@@ -348,6 +348,14 @@ tr {
 
 .custom-copyright {
 	margin: 2em 0 0 0;
+}
+
+.showme {
+	display: block;
+}
+
+.hideme {
+	display: none;
 }
 
 /*-----EAC-----*/

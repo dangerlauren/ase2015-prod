@@ -17,13 +17,13 @@ $n = 0;
 		$n++;
 		switch ($n) {
 			case 1 :
-				$numclass = "newsone";
+				$numclass = "newsone showme";
 				break;
 			case 2 :
-				$numclass = "newstwo";
+				$numclass = "newstwo hideme";
 				break;
 			case 3 :
-				$numclass = "newsthree";
+				$numclass = "newsthree hideme";
 				break;
 			default :
 				$numclass = "flashitem";

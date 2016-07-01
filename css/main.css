@@ -1924,6 +1924,10 @@ table col.name, table col.title {
   width: 100%;
 }
 
+.showme {
+	display: block;
+}
+
 @media (max-width: 843px) {
 	#research-table .custom div p {
 		font-size: .8em;
