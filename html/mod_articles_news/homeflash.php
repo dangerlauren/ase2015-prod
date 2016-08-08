@@ -10,6 +10,7 @@
 defined('_JEXEC') or die;
 $n = 0;
 ?>
+<h3>Department News</h3>
 <p class="newscontrols"><a class="prev disabled" href="#newsnull">&lt;</a><a class="next" href="#newstwo">&gt;</a>
 </p>
 <div class="newsflash<?php echo $moduleclass_sfx; ?>">
