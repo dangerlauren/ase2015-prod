@@ -1509,6 +1509,10 @@ table col.name, table col.title {
 	margin-bottom: 2em;
 }
 
+#jevents #jevents_body div .description p + p {
+	float: none;
+}
+
 /** Undergraduate **/
 
 .borderbottom ul, .borderbottom h3 + p {
