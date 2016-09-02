@@ -1513,6 +1513,15 @@ table col.name, table col.title {
 	float: none;
 }
 
+/*#jevents #jevents_body #seminar-btn {
+	clear: both;
+	margin-bottom: 2em; 
+}
+
+#jevents #jevents_body #seminar-btn a {
+	padding: .25em 2em;
+}*/
+
 /** Undergraduate **/
 
 .borderbottom ul, .borderbottom h3 + p {
