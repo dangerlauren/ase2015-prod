@@ -16,6 +16,15 @@
 		   	$('#overlay').toggleClass('show');
 		});		
 	});
+
+	$(function(){
+		$(window).on('resize', function() {
+			if ($(window).width() > 1000) {
+				$("#overlay").remove(".show");
+				$(".menu-mobile").hide();
+			}
+		});
+	});
 	
 	$(function(){
 			$( '.moduletable-flexcontrols p a.next, .moduletable-flexcontrols p a.prev' ).click(function(event){
