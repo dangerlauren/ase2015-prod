@@ -1507,20 +1507,20 @@ table col.name, table col.title {
 #jevents #jevents_body p {
 	float: left;
 	margin-bottom: 2em;
+	margin-top: .75em;
 }
 
 #jevents #jevents_body div .description p + p {
 	float: none;
 }
 
-/*#jevents #jevents_body #seminar-btn {
-	clear: both;
-	margin-bottom: 2em; 
+#jevents #jevents_body #seminar-btn {
+	margin: .75em 1em 2em 1.5em;
 }
 
 #jevents #jevents_body #seminar-btn a {
 	padding: .25em 2em;
-}*/
+}
 
 /** Undergraduate **/
 
