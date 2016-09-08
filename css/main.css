@@ -1735,7 +1735,7 @@ table col.name, table col.title {
 }
 
 .item-page p img, .item-page-news p img {
-	margin: .32em 2em 1em 0;
+	margin: .32em 1.5em 1em 0;
 	/*float: left;*/
 }
 
