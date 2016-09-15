@@ -1722,11 +1722,15 @@ table col.name, table col.title {
 	margin-bottom: 2em;
 }
 
-.item-page-news p {
+/*.item-page-news p {
 	margin: 1.5em 0;
-}
+}*/
 
 .item-page-news .published {
+	margin-bottom: 1em;
+}
+
+.blog-news dl.article-info {
 	margin-bottom: 1em;
 }
 
@@ -1739,13 +1743,13 @@ table col.name, table col.title {
 	/*float: left;*/
 }
 
-.item-page.about p img {
+.item-page.about p img, .item-page.eac p img {
 	margin: 0;
 }
 
-.blog-news .items-leading p, .items-row p {
+/*.blog-news .items-leading p, .items-row p {
 	margin: 1em 0 1em 0;
-}
+}*/
 
 .blog-news .items-leading, .span6 {
 	border-bottom: 1px solid #e0e0e0;
