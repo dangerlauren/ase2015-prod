@@ -1547,30 +1547,70 @@ table col.name, table col.title {
 	margin-bottom: 0;
 }
 
-.item-page .meetstudents div h3 {
-	color: #005e83;
+.blog.meetstudents h2, .meetstudents.item-page .page-header h2 {
+	font-size: 3em;
+	font-weight: 700;
 }
 
-.item-page .meetstudents div img, .profiles p img, .newsletters .items-leading .leading-0 .print p img, .blog .items-leading .leading-0 .print p img {
-	margin: 0 10px 10px 0;
-	float: none;
-	display: block;
+/*.blog.meetstudents .page-header {
+	margin-top: -1em;
+}*/
+
+.blog.meetstudents .page-header h2 {
+	font-size: 1.05em;
 }
 
-.item-page .meetstudents div h3 {
-	color: #005e83;
+.blog.meetstudents .page-header h2 a {
+	font-weight: 600;
 }
 
-.item-page .meetstudents div a {
-	width: 30%;
-	height: 150px;
-}
-
-.item-page .meetstudents div:nth-last-of-type(n+3), .item-page .meetstudents div:nth-last-of-type(n+3) ~ div {
+.meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
-	width: 30%;
+	width: 22%;
 	height: 150px;
 	padding-bottom: 7em;
+}
+
+.meetstudents .pull-none img {
+	min-width: 100%;
+	margin-bottom: 2em;
+}
+
+.meetstudents .item .pull-none img {
+	min-width: inherit;
+	width: 180px;
+}
+
+.meetstudents .pull-left {
+	float: left;
+	margin: 0 2em 1em 0;
+}
+
+.meetstudents.item-page h3 {
+	margin-bottom: 0;
+}
+
+.pagenav {
+	list-style: none;
+	margin-left: 0;
+}
+
+.pagenav .previous {
+	float: left;
+	margin-bottom: 2em;
+}
+
+.pagenav .next {
+	float: right;
+	margin-bottom: 2em;
+}
+
+.pagenav .previous:before {
+	content: '<< '
+}
+
+.pagenav .next:after {
+	content: ' >>'
 }
 
 #overlay {
@@ -1958,21 +1998,14 @@ table col.name, table col.title {
 	display: block;
 }
 
+@media (max-width: 999px) {
+	.meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
+  		width: 33%;
+	}
+}
+
 @media (max-width: 843px) {
 	#research-table .custom div p {
 		font-size: .8em;
 	}
 }
-
-@media (max-width: 725px) {
-	.item-page .meetstudents div img {
-		margin-right: 20px;
-		float: left;
-	}
-
-	.item-page .meetstudents div:nth-child(odd), .item-page .meetstudents div:nth-child(odd) ~ div {
-		width: 100%;
-	}
-
-}
-

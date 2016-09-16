@@ -258,6 +258,10 @@ h1 {
   margin-left: 50px;
 }
 
+@media (max-width: 675px) {
+  .meetstudents .items-row div.item:nth-child(2n+1), .meetstudents .items-row div.item:nth-child(2n+1) ~ div {
+      width: 50%;
+}
 
 @media (max-width: 600px) {
   #modulepositions .moduletable .custom h3, #modulepositions .moduletable .custom h3 a:link, #modulepositions .moduletable .custom h3 a:visited {

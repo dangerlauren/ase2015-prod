@@ -254,6 +254,10 @@ tr {
 	font-size: .85em;
 }
 
+.meetstudents .items-row div.item:nth-child(n), .meetstudents .items-row div.item:nth-child(n) ~ div {
+  width: 90%;
+}
+
 .moduletable-homelinks {
 	width: auto;
 	float: none;

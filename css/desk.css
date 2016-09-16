@@ -531,21 +531,3 @@
 		padding: 0 1em;
 	}	
 }
-
-@media (max-width: 1135px) {
-	.item-page .meetstudents div a {
-		width: 45%;
-		height: 150px;
-	}
-
-	.item-page .meetstudents div:nth-child(odd), .item-page .meetstudents div:nth-child(odd) ~ div {
-		float: left;
-		width: 47%;
-		height: 150px;
-		padding-bottom: 7em;
-	}
-
-	.item-page .meetstudents div:nth-child(even) {
-		width: 47%;
-	}	
-}
