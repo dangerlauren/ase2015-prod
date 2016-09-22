@@ -956,7 +956,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -1105,6 +1105,12 @@ figure.news-image-scale figcaption {
 	font-weight: 700;
 }
 
+/*.item-pagealumprofiles .customfeaturedalum .learnmore a {
+	font-style: italic;
+	font-family: 'Georgia', serif;
+	color: #bf5700;
+}*/
+
 #modulepositions .moduletable .custom img {
 	float: left;
 	margin: 2em 2em 2.5em 0;
@@ -1145,7 +1151,6 @@ figure.news-image-scale figcaption {
 	max-width: 180px;
 	float: left;
 	margin-right: 2em;
-
 }
 
 .item-pagealumprofiles .profiles p, .blog .items-leading .leading-0 .print p {
@@ -1161,6 +1166,18 @@ figure.news-image-scale figcaption {
 	float: left;
 }
 
+.blogalumprofiles .customfeaturedalum {
+	margin-bottom: 1.4em;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 1.4em 0;
+	float: left;
+}
+
+.blogalumprofiles .customfeaturedalum img {
+	max-height: 180px;
+}
+
 .item-pagealumprofiles .customfeaturedalum img {
 	max-height: 180px;
 }
@@ -1172,6 +1189,20 @@ figure.news-image-scale figcaption {
 
 .item-pagealumprofiles .customfeaturedalum h3 {
 	margin-bottom: .5em;
+}
+
+.blogalumprofiles .customfeaturedalum h3 {
+	margin-bottom: .5em;
+}
+
+.blogalumprofiles .customfeaturedalum h3 a {
+	color: #bf5700;
+}
+
+.blogalumprofiles .learnmore a {
+	color: #bf5700;
+	font-style: italic;
+	font-family: 'Georgia';
 }
 
 .blog .items-leading .leading-1 .enews {
@@ -1547,22 +1578,46 @@ table col.name, table col.title {
 	margin-bottom: 0;
 }
 
-.blog.meetstudents h2, .meetstudents.item-page .page-header h2 {
+.blog.meetstudents h2, .meetstudents.item-page .page-header h2, .blogalumprofiles > h2/*, .item-pagealumprofiles .page-header h2*/ {
 	font-size: 3em;
 	font-weight: 700;
 }
 
-/*.blog.meetstudents .page-header {
-	margin-top: -1em;
-}*/
+.blogalumprofiles .item > p {
+	font-style: italic;
+	max-width: 180px;
+}
+
+.blogalumprofiles .page-header {
+	margin-top: 0;
+}
+
+.blogalumprofiles .page-header + div {
+	font-weight: 600;
+	margin: -1.25em 0 -1em;
+	max-width: 180px;
+}
 
 .blog.meetstudents .page-header h2 {
 	font-size: 1.05em;
 }
 
-.blog.meetstudents .page-header h2 a {
+.blogalumprofiles .page-header h2 {
+	margin-top: .4em;
+	font-size: 1.05em;
+}
+
+.blog.meetstudents .page-header h2 a, .blogalumprofiles .page-header h2 a {
 	font-weight: 600;
 }
+
+/*.item-pagealumprofiles p:first-of-type {
+	margin-top: -.4em;
+}
+
+.item-pagealumprofiles h3:first-of-type {
+	margin-top: -.4em;
+}*/
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
@@ -1571,7 +1626,18 @@ table col.name, table col.title {
 	padding-bottom: 7em;
 }
 
-.meetstudents .pull-none img {
+.blogalumprofiles .items-row div.item:nth-child(3n+1), .blogalumprofiles .items-row div.item:nth-child(3n+1) ~ div {
+	float: left;
+	width: 33%;
+	height: 150px;
+	padding-bottom: 15em;
+}
+
+.blogalumprofiles .items-row .item img, .blogalumprofiles .page-header h2, .blogalumprofiles .page-header + p {
+	max-width: 180px;
+}
+
+.meetstudents .pull-none img/*, .item-pagealumprofiles .pull-none img*/ {
 	min-width: 100%;
 	margin-bottom: 2em;
 }
@@ -1581,9 +1647,14 @@ table col.name, table col.title {
 	width: 180px;
 }
 
-.meetstudents .pull-left {
+.meetstudents .pull-left/*, .item-pagealumprofiles .pull-left*/ {
 	float: left;
 	margin: 0 2em 1em 0;
+}
+
+.meetstudents .pull-right, .item-pagealumprofiles .pull-right {
+	float: right;
+	margin: 0 0 1em 2em;
 }
 
 .meetstudents.item-page h3 {
@@ -1701,7 +1772,7 @@ table col.name, table col.title {
   margin-top: -1em;
 }
 
-.set-table-width, .item-pagealumprofiles {
+.set-table-width, .item-pagealumprofiles, .blogalumprofiles {
 	max-width: 1000px;
 	border-top: none;
 }

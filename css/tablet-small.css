@@ -286,6 +286,16 @@ tr {
 	margin-bottom: 0;
 }
 
+.blogalumprofiles .customfeaturedalum h3 {
+	clear: left;
+	padding-top: .5em;
+	font-size: 1.25em;
+}
+
+.blogalumprofiles .learnmore {
+	margin-bottom: 0;
+}
+
 .advisors p.float-left {
 	margin-bottom: .5em;
 	float: none;

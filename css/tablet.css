@@ -259,7 +259,7 @@ h1 {
 }
 
 @media (max-width: 675px) {
-  .meetstudents .items-row div.item:nth-child(2n+1), .meetstudents .items-row div.item:nth-child(2n+1) ~ div {
+  .meetstudents .items-row div.item:nth-child(2n+1), .meetstudents .items-row div.item:nth-child(2n+1) ~ div, , .blogalumprofiles .items-row div.item:nth-child(2n+1), .blogalumprofiles .items-row div.item:nth-child(2n+1) ~ div {
       width: 50%;
 }
 
