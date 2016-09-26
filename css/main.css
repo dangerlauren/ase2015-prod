@@ -1858,6 +1858,7 @@ table col.name, table col.title {
 
 .blog-news dl.article-info {
 	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 .item-page dl.article-info dd.published {
