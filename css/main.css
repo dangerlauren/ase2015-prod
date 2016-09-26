@@ -1046,6 +1046,17 @@ figcaption {
 	text-align: right;
 }
 
+.img_caption {
+	color: #53565F;
+	line-height: 1.625em;
+	letter-spacing: .01em;
+	font-size: .95em;
+	padding: 0 .6em .5em 0;
+	font-style: italic;
+	font-weight: 300;
+	width: 100% !important;
+}
+
 .blockquote {
 	font-style: italic;
 	font-size: 1.5em;
@@ -1578,7 +1589,7 @@ table col.name, table col.title {
 	margin-bottom: 0;
 }
 
-.blog.meetstudents h2, .meetstudents.item-page .page-header h2, .blogalumprofiles > h2/*, .item-pagealumprofiles .page-header h2*/ {
+.blog.meetstudents h2, .meetstudents.item-page .page-header h2, .blogalumprofiles > h2, .item-pagealumprofiles .page-header h2 {
 	font-size: 3em;
 	font-weight: 700;
 }
@@ -1594,7 +1605,7 @@ table col.name, table col.title {
 
 .blogalumprofiles .page-header + div {
 	font-weight: 600;
-	margin: -1.25em 0 -1em;
+	margin: -1.25em 0 0;
 	max-width: 180px;
 }
 
@@ -1611,13 +1622,13 @@ table col.name, table col.title {
 	font-weight: 600;
 }
 
-/*.item-pagealumprofiles p:first-of-type {
+.item-pagealumprofiles p:first-of-type {
 	margin-top: -.4em;
 }
 
 .item-pagealumprofiles h3:first-of-type {
 	margin-top: -.4em;
-}*/
+}
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
@@ -1637,9 +1648,13 @@ table col.name, table col.title {
 	max-width: 180px;
 }
 
-.meetstudents .pull-none img/*, .item-pagealumprofiles .pull-none img*/ {
+.meetstudents .pull-none img, .item-pagealumprofiles .pull-none img {
 	min-width: 100%;
 	margin-bottom: 2em;
+}
+
+.meetstudents .pull-none img.caption, .item-pagealumprofiles .pull-none img.caption {
+	margin-bottom: 1em;
 }
 
 .meetstudents .item .pull-none img {
@@ -1647,7 +1662,7 @@ table col.name, table col.title {
 	width: 180px;
 }
 
-.meetstudents .pull-left/*, .item-pagealumprofiles .pull-left*/ {
+.meetstudents .pull-left, .item-pagealumprofiles .pull-left {
 	float: left;
 	margin: 0 2em 1em 0;
 }
