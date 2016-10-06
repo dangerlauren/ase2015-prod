@@ -1662,12 +1662,12 @@ table col.name, table col.title {
 	width: 180px;
 }
 
-.meetstudents .pull-left, .item-pagealumprofiles .pull-left {
+.item-page.meetstudents .pull-left, .item-pagealumprofiles .pull-left {
 	float: left;
 	margin: 0 2em 1em 0;
 }
 
-.meetstudents .pull-right, .item-pagealumprofiles .pull-right {
+.item-page.meetstudents .pull-right, .item-pagealumprofiles .pull-right {
 	float: right;
 	margin: 0 0 1em 2em;
 }
