@@ -272,6 +272,16 @@
 	list-style: none;
 }
 
+.undergradprograms ul.comp-career li {
+	float: left;
+	width: 50%;
+}
+
+.undergradprograms .button-med-orange {
+	clear: both;
+	padding: 1em 0;
+}
+
 /** Research **/
 
 #research-table {
@@ -454,6 +464,13 @@
 	/*CHANGE FONT SIZE IN RESEARCH*/
 	#research-table .custom div p {
 		font-size: .8em;
+	}
+}
+
+@media(max-width: 1150px) {
+	.undergradprograms ul.comp-career li {
+		float: none;
+		width: 100%;
 	}
 }
 

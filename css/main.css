@@ -825,6 +825,7 @@ table td p {
 	font-weight: 700;
 	line-height: 1.5em;
 	font-size: 1em;
+	color: #fff;
 }
 
 .newsflash-homenews div {
@@ -1087,6 +1088,48 @@ figure.news-image-scale img, p.news-image-scale img {
 figure.news-image-scale figcaption {
 	display: inline-block;
 	max-width: 1000px;
+}
+
+.speakers .page-header + p {
+	margin-top: -1em;
+}
+
+.sym-speak {
+	margin:0;
+}
+
+.sym-speak:first-of-type {
+	margin-top: 1em;
+}
+
+.blog.speakers {
+	max-width: 1000px;
+}
+
+.blog.speakers .items-row {
+	border-bottom: 1px solid #e0e0e0; 
+}
+
+.blog.speakers .items-row:last-of-type {
+	border-bottom: none;
+	margin-bottom: 2em;
+}
+
+.blog.speakers .item-image {
+	margin-top: 2em;
+}
+
+.blog.speakers h2 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.blog.speakers .page-header h2 {
+	font-size: 1em;
+}
+
+.blog.speakers .page-header h2 a:link {
+	font-weight: 600;
 }
 
 #modulepositions .moduletable {
@@ -1662,7 +1705,7 @@ table col.name, table col.title {
 	width: 180px;
 }
 
-.item-page.meetstudents .pull-left, .item-pagealumprofiles .pull-left {
+.item-page.meetstudents .pull-left, .item-pagealumprofiles .pull-left, .pull-left {
 	float: left;
 	margin: 0 2em 1em 0;
 }
@@ -2094,5 +2137,16 @@ table col.name, table col.title {
 @media (max-width: 843px) {
 	#research-table .custom div p {
 		font-size: .8em;
+	}
+}
+
+@media (min-width: 850px) and (max-width: 999px) {
+	.undergradprograms ul.comp-career li {
+		float: left;
+		width: 50%;
+	}
+
+	.undergradprograms .button-med-orange {
+		padding: 1em 0;
 	}
 }

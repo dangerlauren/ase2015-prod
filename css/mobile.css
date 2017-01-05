@@ -34,6 +34,10 @@ tr {
 	padding: 1em 0;
 }
 
+ul {
+	font-size: .95em;
+}
+
 .herotext p.button-sm-orange {
 	font-size: .85em;
 	margin-bottom: 0;
