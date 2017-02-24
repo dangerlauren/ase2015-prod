@@ -298,7 +298,7 @@ table td p {
   z-index: 999;
 }
 
-.-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-27, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-28, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-503, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-30,  {
+.-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-27, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-28, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-503, .-undergrad .moduletable-mobilenav .nav .item-7 .nav-child .item-30, .-news .nav .item-766 {
 	display: none;
 }
 
@@ -957,7 +957,7 @@ table td p {
 	margin-bottom: .5em;
 }
 
-.item-page, .blog, .blog-undergrad, .blog-news, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, .blog-exploreut, #modulepositions, .custom-rankings, #faccontent, .facdirectory h1, #faccontentdept, .category-list, .blog-researchareas, .item-page-news, #jevents, .item-page-undergrad, .blogalumprofiles, .item-pagealumprofiles, .search, .weblink-category, .tag-category {
 	margin: 0 5%;
 }
 
@@ -2030,6 +2030,27 @@ table col.name, table col.title {
 .tag-category form ul.category li {
 	border-top: 1px solid #e0e0e0;
 	padding-top: 1em;
+}
+
+.blog-exploreut .items-row {
+	max-width: 1000px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1em;
+}
+
+.blog-exploreut .items-row .event-type {
+	display: inline-block;
+	margin-bottom: 1em;
+	background-color: #eaeaea;
+	padding: .25em .45em;
+	color: #3a3a3a;
+	border:	1px solid;
+	font-size: .7em;
+}
+
+.blog-exploreut .category-desc {
+	max-width: 1000px;
+	margin-bottom: 2em;
 }
 
 /** Expand/Collapse generic styles **/
