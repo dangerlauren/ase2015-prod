@@ -31,6 +31,10 @@
 	padding-left: .35em 0 0 1.5em;
 }
 
+.clear-left {
+	clear: left;
+}
+
 /*IMAGE SCALING*/
 .news-image-scale {
 	min-width: 100%;

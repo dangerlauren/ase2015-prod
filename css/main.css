@@ -1009,6 +1009,10 @@ figcaption {
 	padding: .3em 1.5em 0 0;
 }
 
+.clear-left {
+	clear: left;
+}
+
 /*.float-left + p {
 	padding-top: 1.1em;
 }*/
