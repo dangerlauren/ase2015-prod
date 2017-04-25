@@ -171,6 +171,18 @@ h1 {
   list-style: none;
 }
 
+.vtour .items-row {
+  padding-top: 3em;
+}
+
+.vtour .video {
+  width: 100%;
+}
+
+.video-list {
+  padding-bottom: 2em;
+}
+
 /*-----GRAD-----*/
 
 .graduateprograms .page-header h1 {

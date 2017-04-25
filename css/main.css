@@ -122,6 +122,11 @@ table td p {
 	clip: rect(1px 1px 1px 1px); /* IE 6 and 7*/
 	clip: rect(1px, 1px, 1px, 1px);
 }
+
+.video-list {
+	float: left;
+	padding: .35em 1.5em 3em 0;
+}
 	
 
 /** Wrapper **/
@@ -1466,6 +1471,34 @@ table col.name, table col.title {
 .blog.eac .span12 {
 	max-width: 1000px;
 	margin-right: 5%;
+}
+
+.blog.vtour {
+	width: 90%;
+}
+
+.blog.vtour .category-desc {
+	width: 100%;
+}
+
+.blog.vtour .category-desc p {
+	max-width: none;
+}
+
+.vtour .items-row {
+	border-top: 1px solid #eaeaea;
+	margin: 1.5em 0;
+	padding-top: 4em;
+	clear: both;
+	overflow: auto;
+}
+
+.vtour .video {
+	width: 45%;
+}
+
+.vtour .item p {
+	max-width: none;
 }
 
 /** Calendar **/
