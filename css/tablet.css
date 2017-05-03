@@ -123,6 +123,19 @@ h1 {
   /*float: left;*/
 }
 
+.moduletable-video.slider {
+  width: 93.5%;
+  margin: 0 3.25%;
+}
+
+.slide-desc-text-default .slide-title {
+  font-size: 1.2em !important;
+}
+
+.slide-text, .slide-text p {
+  font-size: .95em;
+}
+
 #header .search {
 	display: none;
 }

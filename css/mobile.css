@@ -250,6 +250,23 @@ ul {
 	clear: both;
 }
 
+.slider {
+	-webkit-text-size-adjust: none;
+}
+
+.djslider-default {
+	min-height: 450px;
+	-webkit-min-height: 450px;
+}
+
+.djslider-loader-default {
+	margin-bottom: 15% !important;
+}
+
+.djslider-default .slider-container {
+	overflow: visible !important;
+}
+
 #header .search {
 	display: none;
 }

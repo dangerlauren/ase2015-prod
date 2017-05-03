@@ -226,6 +226,18 @@ tr {
 	clear: both;
 }
 
+.djslider-loader-default, .djslider-default .slider-container  {
+	overflow: visible !important;
+}
+
+.moduletable-video.slider {
+    margin: 0 3.25%;
+  }
+
+.djslider-default {
+	min-height: 600px;
+}
+
 .moduletable-rankings {
 	padding-left: 0;
 }
@@ -364,4 +376,14 @@ tr {
 
 .blog.eac .category-desc h2 {
   font-size: 1.6em; 
+}
+
+@media (max-width: 600px) {
+	.djslider-default {
+		min-height: 570px;
+	}
+
+	.djslider-default .navigation-container {
+		padding-top: 0 !important;
+	}
 }
