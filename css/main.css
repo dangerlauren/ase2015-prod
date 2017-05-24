@@ -958,6 +958,10 @@ table td p {
 
 /* IMAGE SLIDER MODULE */
 
+.slider h3 {
+	margin-bottom: 1em;
+}
+
 .djslider-loader-default {
 	margin-top: -10px !important;
 }
@@ -1175,6 +1179,10 @@ figure.news-image-scale figcaption {
 
 #modulepositions .moduletable {
 	border-top: 1px solid #e0e0e0;
+}
+
+#modulepositions.facbyres .moduletable:first-of-type {
+	border-top: none;
 }
 
 /*#modulepositions .moduletable:last-of-type {
@@ -2233,6 +2241,13 @@ table col.name, table col.title {
 
 	.slide-text, .slide-text p {
 		font-size: 1em;
+	}
+
+	.moduletable-video {
+		width: 90%;
+		float: none;
+		clear: both;
+		margin: 0 5%;
 	}
 }
 

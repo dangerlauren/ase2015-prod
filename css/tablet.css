@@ -123,7 +123,7 @@ h1 {
   /*float: left;*/
 }
 
-.moduletable-video.slider {
+.moduletable-video, .moduletable-video.slider {
   width: 93.5%;
   margin: 0 3.25%;
 }

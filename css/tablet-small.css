@@ -380,7 +380,7 @@ tr {
 
 @media (max-width: 600px) {
 	.djslider-default {
-		min-height: 570px;
+		min-height: 580px;
 	}
 
 	.djslider-default .navigation-container {

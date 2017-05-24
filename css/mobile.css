@@ -250,6 +250,10 @@ ul {
 	clear: both;
 }
 
+.moduletable-video {
+	margin-bottom: 2em;
+}
+
 .slider {
 	-webkit-text-size-adjust: none;
 }
