@@ -1968,6 +1968,10 @@ table col.name, table col.title {
 	margin-bottom: 2em;
 }
 
+.blog-news .items-leading .attachmentsContainer, .blog-news .item .attachmentsContainer, .blog.meetstudents .attachmentsContainer, .blog-researchareas .attachmentsContainer {
+	clear: none;
+}
+
 /*.item-page-news p {
 	margin: 1.5em 0;
 }*/
