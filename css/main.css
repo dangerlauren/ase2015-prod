@@ -1068,7 +1068,7 @@ figcaption {
 
 .float-right {
 	float: right;
-	padding-left: .35em 0 0 1.5em;
+	margin: .35em 0 0 1.5em;
 }
 
 .maincaption {

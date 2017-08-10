@@ -24,6 +24,11 @@ tr {
 	padding: 1em 0;
 }
 
+.float-right {
+	float: none;
+	margin: 0;
+}
+
 #header .moduletable-utilitynav .nav {
   min-width: 400px;
   padding-bottom: .5em;
@@ -273,6 +278,11 @@ tr {
 
 #research-table .custom div p {
   font-size: 1em;
+}
+
+.item-pagealumprofiles .pull-right {
+	float: none;
+	margin: 0 0 2em 0;
 }
 
 .item-pagealumprofiles .profiles p, .blog .items-leading .leading-0 .print p {
