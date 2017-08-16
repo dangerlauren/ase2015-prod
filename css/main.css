@@ -1968,7 +1968,7 @@ table col.name, table col.title {
 	margin-bottom: 2em;
 }
 
-.blog-news .items-leading .attachmentsContainer, .blog-news .item .attachmentsContainer, .blog.meetstudents .attachmentsContainer, .blog-researchareas .attachmentsContainer, .undergradprograms .attachmentsContainer {
+.blog-news .items-leading .attachmentsContainer, .blog-news .item .attachmentsContainer, .blog.meetstudents .attachmentsContainer, .blog-researchareas .attachmentsContainer, .undergradprograms .attachmentsContainer, .blog.awardshonors .attachmentsContainer {
 	clear: none;
 }
 
