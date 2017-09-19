@@ -1560,9 +1560,9 @@ table col.name, table col.title {
 	margin-top: -1.5em;
 }
 
-#jevents #jevents_header h1 {
+/*#jevents #jevents_header h1 {
 	margin-bottom: -.75em;
-}
+}*/
 
 #jevents .contentheading {
 	/*font-size: 1.875em;*/
@@ -1620,7 +1620,7 @@ table col.name, table col.title {
 	background-color: #eaeaea;
 	color: #3a3a3a;
 	font-style: italic;
-	min-width: 130px;
+	min-width: 150px;
 	margin-right: 3em;
 	padding: 1.5em .8em 1.5em 1.5em;
 }
