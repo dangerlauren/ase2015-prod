@@ -1961,6 +1961,15 @@ table col.name, table col.title {
 
 /** News **/
 
+.addtoany_container {
+	margin-bottom: 3em;
+}
+
+.addtoany_container .addtoany_list a .a2a_svg {
+	background-color: #bf5700 !important;
+	border-radius: 0;
+}
+
 .redirect-ltr h2 {
 	display: none;
 }
