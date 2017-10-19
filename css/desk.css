@@ -148,7 +148,7 @@
 }
 
 /** Body **/
-.item-page, .blog, .blog-undergrad, .blog-news, .blogalumprofiles, .item-pagealumprofiles, .item-page-undergrad, .item-page-news, .undergradprograms .undergradprograms, .search, .weblink-category, .tag-category {
+.item-page, .blog, .blog-undergrad, .blog-news, .blog.meetstudents, .blogalumprofiles, .item-pagealumprofiles, .item-page-undergrad, .item-page-news, .undergradprograms .undergradprograms, .search, .weblink-category, .tag-category {
 	width: 65%;
 }
 
@@ -338,6 +338,10 @@
 
 .blog .category-desc {
 	width: 68%;
+}
+
+.blog.meetstudents .category-desc {
+	width: 100%;
 }
 
 @media (max-width: 910px) {

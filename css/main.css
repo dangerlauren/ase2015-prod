@@ -1761,7 +1761,7 @@ table col.name, table col.title {
 
 .meetstudents .items-row div.item:nth-child(3n+1), .meetstudents .items-row div.item:nth-child(3n+1) ~ div {
 	float: left;
-	width: 22%;
+	width: 33%;
 	height: 180px;
 	padding-bottom: 7em;
 }
