@@ -2083,12 +2083,12 @@ table col.name, table col.title {
 	display: none;
 }
 
-.weblink-category .category li {
+.weblink-category .category li, .explore h3 {
 	padding: 1em 0;
 	border-top: 1px solid #d1d3d4;
 }
 
-.weblink-category .category li:first-of-type {
+.weblink-category .category li:first-of-type, .explore h3:first-of-type {
 	border-top: none;
 }
 
