@@ -2163,6 +2163,16 @@ table col.name, table col.title {
 	margin-bottom: 2em;
 }
 
+#inside-ase {
+	background: #eaeaea; 
+	padding: 5%; 
+	margin: 0 0 2em 0;
+}
+
+#inside-ase ul {
+	margin: 2em 0 0 2em;
+}
+
 /** Expand/Collapse generic styles **/
 .expand {
 	display: none;
