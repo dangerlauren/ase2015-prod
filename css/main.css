@@ -1541,6 +1541,12 @@ table col.name, table col.title {
 	max-width: none;
 }
 
+/** Breezing Forms - Seminars and Alumni **/
+.bfQuickMode .bfSubmitButton {
+	padding: 1em 2em;
+	margin: 0 43%;
+}
+
 /** Calendar **/
 
 #jevents {
