@@ -2290,7 +2290,7 @@ table col.name, table col.title {
 		width: 90%;
 		float: none;
 		clear: both;
-		margin: 0 5%;
+		margin: 0 5% 10% 5%;
 	}
 }
 
